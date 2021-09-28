@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Semester5/TeknologiAplikasiMobile/AndroidStudio/MyRecyclerView/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Semester5/TeknologiAplikasiMobile/AndroidStudio/MyRecyclerView/app/src/main/res/layout/item_row_president.xml" value="0.1" />
+        <entry key="..\:/Semester5/TeknologiAplikasiMobile/MyRecyclerview/LKP_5/app/src/main/res/layout/item_grid_president.xml" value="0.1796875" />
+        <entry key="..\:/Semester5/TeknologiAplikasiMobile/MyRecyclerview/app/src/main/res/layout/item_grid_president.xml" value="0.1796875" />
+        <entry key="..\:/Semester5/TeknologiAplikasiMobile/app/src/main/res/layout/activity_main.xml" value="0.10144927536231885" />
+        <entry key="..\:/Semester5/TeknologiAplikasiMobile/app/src/main/res/layout/item_cardview_president.xml" value="0.1" />
+        <entry key="..\:/Semester5/TeknologiAplikasiMobile/app/src/main/res/layout/item_grid_president.xml" value="0.1" />
+        <entry key="..\:/Semester5/TeknologiAplikasiMobile/app/src/main/res/layout/item_row_president.xml" value="0.1" />
+        <entry key="..\:/Semester5/TeknologiAplikasiMobile/app/src/main/res/menu/menu_main.xml" value="0.1" />
       </map>
     </option>
   </component>

@@ -60,8 +60,8 @@ public class MainActivity extends AppCompatActivity {
 
         ItemClickSupport.addTo(rvCategory).setOnItemClickListener(new ItemClickSupport.OnItemClickListener(){
             @Override
-                    public void onItemClicked(RecyclerView recyclerView, int position, View v){
-                        showSelectedPresident(list.get(position));
+            public void onItemClicked(RecyclerView recyclerView, int position, View v){
+                showSelectedPresident(list.get(position));
             }
         });
     }
@@ -72,8 +72,9 @@ public class MainActivity extends AppCompatActivity {
         rvCategory.setAdapter(gridPresidentAdapter);
 
         ItemClickSupport.addTo(rvCategory).setOnItemClickListener(new ItemClickSupport.OnItemClickListener(){
-                    public void onItemClicked(RecyclerView recyclerView, int position, View v){
-                        showSelectedPresident(list.get(position));
+            @Override
+            public void onItemClicked(RecyclerView recyclerView, int position, View v){
+                showSelectedPresident(list.get(position));
             }
         });
     }

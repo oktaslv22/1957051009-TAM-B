@@ -21,7 +21,7 @@ public class CardViewPresidentAdapter extends RecyclerView.Adapter<CardViewPresi
     private Context context;
     private ArrayList<President> listPresident;
 
-    public ArrayList<President> getListPresident() {
+    private ArrayList<President> getListPresident() {
         return listPresident;
     }
 

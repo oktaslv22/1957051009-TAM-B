@@ -18,40 +18,40 @@ public class GridPresidentAdapter extends RecyclerView.Adapter<GridPresidentAdap
     private Context context;
     private ArrayList<President> listPresident;
     private ArrayList<President> getListPresident() {
-            return listPresident;
-        }
-        public void setListPresident(ArrayList<President> listPresident) {
-            this.listPresident = listPresident;
-        }
+        return listPresident;
+    }
+    public void setListPresident(ArrayList<President> listPresident) {
+        this.listPresident = listPresident;
+    }
 
-        public GridPresidentAdapter(Context context) {
-            this.context = context;
-        }
+    public GridPresidentAdapter(Context context) {
+        this.context = context;
+    }
 
-        @NonNull
-        @Override
-        public GridViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType){
-            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_grid_president, parent, false);
-            return new GridViewHolder(view);
-        }
-        @Override
-        public void onBindViewHolder(@NonNull GridViewHolder holder, int position){
-            Glide.with(context)
-                    .load(getListPresident().get(position).getPhoto())
-                    .apply(new RequestOptions().override(350,550))
-                    .into(holder.imgPhoto);
-        }
-        @Override
-        public int getItemCount(){
-            return getListPresident().size();
-        }
+    @NonNull
+    @Override
+    public GridViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType){
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_grid_president, parent, false);
+        return new GridViewHolder(view);
+    }
+    @Override
+    public void onBindViewHolder(@NonNull GridViewHolder holder, int position){
+        Glide.with(context)
+                .load(getListPresident().get(position).getPhoto())
+                .apply(new RequestOptions().override(350,550))
+                .into(holder.imgPhoto);
+    }
+    @Override
+    public int getItemCount(){
+        return getListPresident().size();
+    }
 
-        class GridViewHolder extends RecyclerView.ViewHolder{
-            ImageView imgPhoto;
+    class GridViewHolder extends RecyclerView.ViewHolder{
+        ImageView imgPhoto;
 
-            GridViewHolder(View itemView){
-                super(itemView);
-                imgPhoto = itemView.findViewById(R.id.img_item_photo);
-            }
+        GridViewHolder(View itemView){
+            super(itemView);
+            imgPhoto = itemView.findViewById(R.id.img_item_photo);
         }
     }
+}
