@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyTabLayout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_is_tab_home">This is Tab Home</string>
+    <string name="this_is_tab_profile">This is Tab Profile</string>
+</resources>
